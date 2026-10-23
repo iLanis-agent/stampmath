@@ -1,0 +1,971 @@
+{
+ "cases": [
+  {
+   "fn": "sheets",
+   "args": [
+    "465",
+    "20"
+   ],
+   "expect": "The 465 stamps at 20 stamps a sheet take 24 sheets, the last sheet holding 5 stamps."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "465",
+    "60"
+   ],
+   "expect": "The 465 stamps at 60 stamps a week last 7 full weeks with 45 stamps left for the next week."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "24",
+    "13.20",
+    "465"
+   ],
+   "expect": "The 24 sheets at $13.20 a sheet come to $316.80, $0.68 a stamp."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "465",
+    "8"
+   ],
+   "expect": "The 465 stamps at 8 stamps a minute take 59 minutes, 0 hours 59 minutes."
+  },
+  {
+   "fn": "sheets",
+   "args": [
+    "1",
+    "1"
+   ],
+   "expect": "The 1 stamp at 1 stamp a sheet takes 1 sheet, the last sheet holding 1 stamp."
+  },
+  {
+   "fn": "sheets",
+   "args": [
+    "460",
+    "20"
+   ],
+   "expect": "The 460 stamps at 20 stamps a sheet take 23 sheets, the last sheet holding 20 stamps."
+  },
+  {
+   "fn": "sheets",
+   "args": [
+    "1000000",
+    "1000"
+   ],
+   "expect": "The 1000000 stamps at 1000 stamps a sheet take 1000 sheets, the last sheet holding 1000 stamps."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "1",
+    "1"
+   ],
+   "expect": "The 1 stamp at 1 stamp a week lasts 1 full week with 0 stamps left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "420",
+    "60"
+   ],
+   "expect": "The 420 stamps at 60 stamps a week last 7 full weeks with 0 stamps left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "1000000",
+    "100000"
+   ],
+   "expect": "The 1000000 stamps at 100000 stamps a week last 10 full weeks with 0 stamps left for the next week."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "1",
+    "0.01",
+    "1"
+   ],
+   "expect": "The 1 sheet at $0.01 a sheet comes to $0.01, $0.01 a stamp."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "100000",
+    "999.99",
+    "1000000"
+   ],
+   "expect": "The 100000 sheets at $999.99 a sheet come to $99999000.00, $100.00 a stamp."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "1",
+    "1"
+   ],
+   "expect": "The 1 stamp at 1 stamp a minute takes 1 minute, 0 hours 1 minute."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "60",
+    "1"
+   ],
+   "expect": "The 60 stamps at 1 stamp a minute take 60 minutes, 1 hour 0 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "1000000",
+    "100"
+   ],
+   "expect": "The 1000000 stamps at 100 stamps a minute take 10000 minutes, 166 hours 40 minutes."
+  },
+  {
+   "fn": "sheets",
+   "args": [
+    "701612",
+    "114"
+   ],
+   "expect": "The 701612 stamps at 114 stamps a sheet take 6155 sheets, the last sheet holding 56 stamps."
+  },
+  {
+   "fn": "sheets",
+   "args": [
+    "265917",
+    "327"
+   ],
+   "expect": "The 265917 stamps at 327 stamps a sheet take 814 sheets, the last sheet holding 66 stamps."
+  },
+  {
+   "fn": "sheets",
+   "args": [
+    "536974",
+    "365"
+   ],
+   "expect": "The 536974 stamps at 365 stamps a sheet take 1472 sheets, the last sheet holding 59 stamps."
+  },
+  {
+   "fn": "sheets",
+   "args": [
+    "477283",
+    "333"
+   ],
+   "expect": "The 477283 stamps at 333 stamps a sheet take 1434 sheets, the last sheet holding 94 stamps."
+  },
+  {
+   "fn": "sheets",
+   "args": [
+    "995420",
+    "258"
+   ],
+   "expect": "The 995420 stamps at 258 stamps a sheet take 3859 sheets, the last sheet holding 56 stamps."
+  },
+  {
+   "fn": "sheets",
+   "args": [
+    "881584",
+    "954"
+   ],
+   "expect": "The 881584 stamps at 954 stamps a sheet take 925 sheets, the last sheet holding 88 stamps."
+  },
+  {
+   "fn": "sheets",
+   "args": [
+    "287214",
+    "300"
+   ],
+   "expect": "The 287214 stamps at 300 stamps a sheet take 958 sheets, the last sheet holding 114 stamps."
+  },
+  {
+   "fn": "sheets",
+   "args": [
+    "349215",
+    "473"
+   ],
+   "expect": "The 349215 stamps at 473 stamps a sheet take 739 sheets, the last sheet holding 141 stamps."
+  },
+  {
+   "fn": "sheets",
+   "args": [
+    "186484",
+    "205"
+   ],
+   "expect": "The 186484 stamps at 205 stamps a sheet take 910 sheets, the last sheet holding 139 stamps."
+  },
+  {
+   "fn": "sheets",
+   "args": [
+    "672662",
+    "447"
+   ],
+   "expect": "The 672662 stamps at 447 stamps a sheet take 1505 sheets, the last sheet holding 374 stamps."
+  },
+  {
+   "fn": "sheets",
+   "args": [
+    "400167",
+    "165"
+   ],
+   "expect": "The 400167 stamps at 165 stamps a sheet take 2426 sheets, the last sheet holding 42 stamps."
+  },
+  {
+   "fn": "sheets",
+   "args": [
+    "616271",
+    "187"
+   ],
+   "expect": "The 616271 stamps at 187 stamps a sheet take 3296 sheets, the last sheet holding 106 stamps."
+  },
+  {
+   "fn": "sheets",
+   "args": [
+    "682407",
+    "982"
+   ],
+   "expect": "The 682407 stamps at 982 stamps a sheet take 695 sheets, the last sheet holding 899 stamps."
+  },
+  {
+   "fn": "sheets",
+   "args": [
+    "691761",
+    "473"
+   ],
+   "expect": "The 691761 stamps at 473 stamps a sheet take 1463 sheets, the last sheet holding 235 stamps."
+  },
+  {
+   "fn": "sheets",
+   "args": [
+    "256426",
+    "915"
+   ],
+   "expect": "The 256426 stamps at 915 stamps a sheet take 281 sheets, the last sheet holding 226 stamps."
+  },
+  {
+   "fn": "sheets",
+   "args": [
+    "396843",
+    "722"
+   ],
+   "expect": "The 396843 stamps at 722 stamps a sheet take 550 sheets, the last sheet holding 465 stamps."
+  },
+  {
+   "fn": "sheets",
+   "args": [
+    "253402",
+    "819"
+   ],
+   "expect": "The 253402 stamps at 819 stamps a sheet take 310 sheets, the last sheet holding 331 stamps."
+  },
+  {
+   "fn": "sheets",
+   "args": [
+    "635059",
+    "848"
+   ],
+   "expect": "The 635059 stamps at 848 stamps a sheet take 749 sheets, the last sheet holding 755 stamps."
+  },
+  {
+   "fn": "sheets",
+   "args": [
+    "8756",
+    "191"
+   ],
+   "expect": "The 8756 stamps at 191 stamps a sheet take 46 sheets, the last sheet holding 161 stamps."
+  },
+  {
+   "fn": "sheets",
+   "args": [
+    "771662",
+    "84"
+   ],
+   "expect": "The 771662 stamps at 84 stamps a sheet take 9187 sheets, the last sheet holding 38 stamps."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "407998",
+    "17355"
+   ],
+   "expect": "The 407998 stamps at 17355 stamps a week last 23 full weeks with 8833 stamps left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "362206",
+    "84765"
+   ],
+   "expect": "The 362206 stamps at 84765 stamps a week last 4 full weeks with 23146 stamps left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "437471",
+    "55716"
+   ],
+   "expect": "The 437471 stamps at 55716 stamps a week last 7 full weeks with 47459 stamps left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "454904",
+    "43100"
+   ],
+   "expect": "The 454904 stamps at 43100 stamps a week last 10 full weeks with 23904 stamps left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "747838",
+    "71414"
+   ],
+   "expect": "The 747838 stamps at 71414 stamps a week last 10 full weeks with 33698 stamps left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "795441",
+    "59798"
+   ],
+   "expect": "The 795441 stamps at 59798 stamps a week last 13 full weeks with 18067 stamps left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "594735",
+    "88192"
+   ],
+   "expect": "The 594735 stamps at 88192 stamps a week last 6 full weeks with 65583 stamps left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "109449",
+    "20329"
+   ],
+   "expect": "The 109449 stamps at 20329 stamps a week last 5 full weeks with 7804 stamps left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "635945",
+    "31472"
+   ],
+   "expect": "The 635945 stamps at 31472 stamps a week last 20 full weeks with 6505 stamps left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "89873",
+    "9142"
+   ],
+   "expect": "The 89873 stamps at 9142 stamps a week last 9 full weeks with 7595 stamps left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "209351",
+    "12175"
+   ],
+   "expect": "The 209351 stamps at 12175 stamps a week last 17 full weeks with 2376 stamps left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "858939",
+    "73633"
+   ],
+   "expect": "The 858939 stamps at 73633 stamps a week last 11 full weeks with 48976 stamps left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "958588",
+    "73001"
+   ],
+   "expect": "The 958588 stamps at 73001 stamps a week last 13 full weeks with 9575 stamps left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "797897",
+    "31571"
+   ],
+   "expect": "The 797897 stamps at 31571 stamps a week last 25 full weeks with 8622 stamps left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "275133",
+    "82310"
+   ],
+   "expect": "The 275133 stamps at 82310 stamps a week last 3 full weeks with 28203 stamps left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "77534",
+    "87659"
+   ],
+   "expect": "The 77534 stamps at 87659 stamps a week last 0 full weeks with 77534 stamps left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "755119",
+    "73121"
+   ],
+   "expect": "The 755119 stamps at 73121 stamps a week last 10 full weeks with 23909 stamps left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "36751",
+    "68621"
+   ],
+   "expect": "The 36751 stamps at 68621 stamps a week last 0 full weeks with 36751 stamps left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "597991",
+    "96653"
+   ],
+   "expect": "The 597991 stamps at 96653 stamps a week last 6 full weeks with 18073 stamps left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "643316",
+    "39366"
+   ],
+   "expect": "The 643316 stamps at 39366 stamps a week last 16 full weeks with 13460 stamps left for the next week."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "94935",
+    "277.66",
+    "526492"
+   ],
+   "expect": "The 94935 sheets at $277.66 a sheet come to $26359652.10, $50.07 a stamp."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "68714",
+    "617.09",
+    "188820"
+   ],
+   "expect": "The 68714 sheets at $617.09 a sheet come to $42402722.26, $224.57 a stamp."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "3159",
+    "735.01",
+    "912274"
+   ],
+   "expect": "The 3159 sheets at $735.01 a sheet come to $2321896.59, $2.55 a stamp."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "7558",
+    "645.8",
+    "353095"
+   ],
+   "expect": "The 7558 sheets at $645.80 a sheet come to $4880956.40, $13.82 a stamp."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "3324",
+    "260.07",
+    "739688"
+   ],
+   "expect": "The 3324 sheets at $260.07 a sheet come to $864472.68, $1.17 a stamp."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "39346",
+    "541.14",
+    "650140"
+   ],
+   "expect": "The 39346 sheets at $541.14 a sheet come to $21291694.44, $32.75 a stamp."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "68397",
+    "116.79",
+    "414428"
+   ],
+   "expect": "The 68397 sheets at $116.79 a sheet come to $7988085.63, $19.27 a stamp."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "67043",
+    "940.98",
+    "605305"
+   ],
+   "expect": "The 67043 sheets at $940.98 a sheet come to $63086122.14, $104.22 a stamp."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "64610",
+    "647.63",
+    "259633"
+   ],
+   "expect": "The 64610 sheets at $647.63 a sheet come to $41843374.30, $161.16 a stamp."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "45871",
+    "365.67",
+    "692445"
+   ],
+   "expect": "The 45871 sheets at $365.67 a sheet come to $16773648.57, $24.22 a stamp."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "60972",
+    "306.88",
+    "298056"
+   ],
+   "expect": "The 60972 sheets at $306.88 a sheet come to $18711087.36, $62.78 a stamp."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "98226",
+    "940.47",
+    "798844"
+   ],
+   "expect": "The 98226 sheets at $940.47 a sheet come to $92378606.22, $115.64 a stamp."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "57645",
+    "95.51",
+    "786646"
+   ],
+   "expect": "The 57645 sheets at $95.51 a sheet come to $5505673.95, $7.00 a stamp."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "27365",
+    "358.03",
+    "84020"
+   ],
+   "expect": "The 27365 sheets at $358.03 a sheet come to $9797490.95, $116.61 a stamp."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "88748",
+    "510.74",
+    "156534"
+   ],
+   "expect": "The 88748 sheets at $510.74 a sheet come to $45327153.52, $289.57 a stamp."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "52009",
+    "485.83",
+    "609909"
+   ],
+   "expect": "The 52009 sheets at $485.83 a sheet come to $25267532.47, $41.43 a stamp."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "32458",
+    "831.24",
+    "28264"
+   ],
+   "expect": "The 32458 sheets at $831.24 a sheet come to $26980387.92, $954.58 a stamp."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "19740",
+    "852.64",
+    "729349"
+   ],
+   "expect": "The 19740 sheets at $852.64 a sheet come to $16831113.60, $23.08 a stamp."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "99552",
+    "379.45",
+    "850599"
+   ],
+   "expect": "The 99552 sheets at $379.45 a sheet come to $37775006.40, $44.41 a stamp."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "34891",
+    "102.35",
+    "217075"
+   ],
+   "expect": "The 34891 sheets at $102.35 a sheet come to $3571093.85, $16.45 a stamp."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "30326",
+    "79.66",
+    "777026"
+   ],
+   "expect": "The 30326 sheets at $79.66 a sheet come to $2415769.16, $3.11 a stamp."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "10907",
+    "103.29",
+    "971476"
+   ],
+   "expect": "The 10907 sheets at $103.29 a sheet come to $1126584.03, $1.16 a stamp."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "92871",
+    "818.02",
+    "10518"
+   ],
+   "expect": "The 92871 sheets at $818.02 a sheet come to $75970335.42, $7222.89 a stamp."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "21335",
+    "390.83",
+    "747670"
+   ],
+   "expect": "The 21335 sheets at $390.83 a sheet come to $8338358.05, $11.15 a stamp."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "12639",
+    "81.91",
+    "129396"
+   ],
+   "expect": "The 12639 sheets at $81.91 a sheet come to $1035260.49, $8.00 a stamp."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "300883",
+    "39"
+   ],
+   "expect": "The 300883 stamps at 39 stamps a minute take 7715 minutes, 128 hours 35 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "531792",
+    "80"
+   ],
+   "expect": "The 531792 stamps at 80 stamps a minute take 6648 minutes, 110 hours 48 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "89177",
+    "77"
+   ],
+   "expect": "The 89177 stamps at 77 stamps a minute take 1159 minutes, 19 hours 19 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "592441",
+    "51"
+   ],
+   "expect": "The 592441 stamps at 51 stamps a minute take 11617 minutes, 193 hours 37 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "218109",
+    "72"
+   ],
+   "expect": "The 218109 stamps at 72 stamps a minute take 3030 minutes, 50 hours 30 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "994845",
+    "22"
+   ],
+   "expect": "The 994845 stamps at 22 stamps a minute take 45221 minutes, 753 hours 41 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "704153",
+    "49"
+   ],
+   "expect": "The 704153 stamps at 49 stamps a minute take 14371 minutes, 239 hours 31 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "535080",
+    "47"
+   ],
+   "expect": "The 535080 stamps at 47 stamps a minute take 11385 minutes, 189 hours 45 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "437488",
+    "61"
+   ],
+   "expect": "The 437488 stamps at 61 stamps a minute take 7172 minutes, 119 hours 32 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "168373",
+    "23"
+   ],
+   "expect": "The 168373 stamps at 23 stamps a minute take 7321 minutes, 122 hours 1 minute."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "532852",
+    "79"
+   ],
+   "expect": "The 532852 stamps at 79 stamps a minute take 6745 minutes, 112 hours 25 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "21035",
+    "8"
+   ],
+   "expect": "The 21035 stamps at 8 stamps a minute take 2630 minutes, 43 hours 50 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "238271",
+    "44"
+   ],
+   "expect": "The 238271 stamps at 44 stamps a minute take 5416 minutes, 90 hours 16 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "870868",
+    "52"
+   ],
+   "expect": "The 870868 stamps at 52 stamps a minute take 16748 minutes, 279 hours 8 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "180641",
+    "100"
+   ],
+   "expect": "The 180641 stamps at 100 stamps a minute take 1807 minutes, 30 hours 7 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "985199",
+    "15"
+   ],
+   "expect": "The 985199 stamps at 15 stamps a minute take 65680 minutes, 1094 hours 40 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "768644",
+    "86"
+   ],
+   "expect": "The 768644 stamps at 86 stamps a minute take 8938 minutes, 148 hours 58 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "853583",
+    "70"
+   ],
+   "expect": "The 853583 stamps at 70 stamps a minute take 12195 minutes, 203 hours 15 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "627068",
+    "36"
+   ],
+   "expect": "The 627068 stamps at 36 stamps a minute take 17419 minutes, 290 hours 19 minutes."
+  }
+ ],
+ "errors": [
+  [
+   "sheets",
+   [
+    "0",
+    "20"
+   ]
+  ],
+  [
+   "sheets",
+   [
+    "1000001",
+    "12"
+   ]
+  ],
+  [
+   "sheets",
+   [
+    "2.5",
+    "12"
+   ]
+  ],
+  [
+   "sheets",
+   [
+    "465",
+    "0"
+   ]
+  ],
+  [
+   "sheets",
+   [
+    "465",
+    "1001"
+   ]
+  ],
+  [
+   "weeks",
+   [
+    "0",
+    "30"
+   ]
+  ],
+  [
+   "weeks",
+   [
+    "465",
+    "0"
+   ]
+  ],
+  [
+   "weeks",
+   [
+    "465",
+    "100001"
+   ]
+  ],
+  [
+   "weeks",
+   [
+    "465",
+    "1.5"
+   ]
+  ],
+  [
+   "weeks",
+   [
+    "1000001",
+    "30"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "0",
+    "13.20",
+    "465"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "100001",
+    "13.20",
+    "465"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "24",
+    "0",
+    "465"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "24",
+    "13.205",
+    "465"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "24",
+    "13.20",
+    "0"
+   ]
+  ],
+  [
+   "time",
+   [
+    "0",
+    "8"
+   ]
+  ],
+  [
+   "time",
+   [
+    "465",
+    "0"
+   ]
+  ],
+  [
+   "time",
+   [
+    "465",
+    "101"
+   ]
+  ],
+  [
+   "time",
+   [
+    "465",
+    "6.5"
+   ]
+  ],
+  [
+   "time",
+   [
+    "1000001",
+    "5"
+   ]
+  ]
+ ]
+}
